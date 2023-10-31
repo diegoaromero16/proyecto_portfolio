@@ -1,0 +1,16 @@
+body{
+    background-color: #2d2d2d;
+    color: white;
+}
+.title-font {
+    font-family: 'Pixelify Sans', sans-serif;
+}
+.name{
+    font-size: 80px;
+}
+#left-section{
+    
+}
+#memoji-img{
+    width: 20rem;
+}
