@@ -1,16 +1,56 @@
-body{
+body {
     background-color: #2d2d2d;
     color: white;
 }
+
 .title-font {
     font-family: 'Pixelify Sans', sans-serif;
 }
-.name{
+
+.name {
     font-size: 80px;
 }
-#left-section{
-    
+
+#left-section {
+    margin-top: 17rem;
+    margin-left: 1rem;
 }
-#memoji-img{
+
+#memoji-img {
+    margin-top: 10rem;
     width: 20rem;
+}
+
+#img-abMe {
+    width: 10rem;
+    height: 13rem;
+    z-index: 2;
+    border-radius: 20px;
+}
+/* Estilo para el contenedor */
+.contenedor-foto {
+    max-width: 100%;
+    margin-top: 10rem;
+}
+
+/* Estilo para el marco */
+.marco {
+    position: relative;
+    width: 250px;
+    height: 300px;
+    background: #2d2d2d;
+    border: 10px solid #ffec19;
+    left: 120px;
+}
+
+/* Estilo para la imagen */
+.imagen {
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+    z-index: 1;
+    /* Controla la superposición */
+    width: 250px;
+    height: 300px;
+    border: 10px solid #272727;
 }
