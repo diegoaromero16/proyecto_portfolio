@@ -27,6 +27,7 @@ body {
     z-index: 2;
     border-radius: 20px;
 }
+
 /* Estilo para el contenedor */
 .contenedor-foto {
     max-width: 100%;
@@ -51,6 +52,40 @@ body {
     z-index: 1;
     /* Controla la superposición */
     width: 250px;
-    height: 300px;
+    height: 310px;
     border: 10px solid #272727;
+}
+
+#Title-description {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.titles-decoration {
+    text-decoration: underline yellow 3px;
+}
+
+#titleService {
+    margin-top: 4rem;
+}
+
+#abMe-description {
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+    margin-top: 20px;
+}
+
+.card-dark {
+    background-color: #272727;
+    color: white;
+}
+
+.iconClass {
+    color: #ffec19;
+}
+.card{
+    height: 7rem;
+}
+
+svg{
+    width: 5rem;
 }
