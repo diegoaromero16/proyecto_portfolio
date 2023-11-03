@@ -3,8 +3,34 @@ body {
     color: white;
 }
 
+.navbar {
+    background-color: transparent;
+}
+
+.nav-link {
+    border-radius: 50px;
+}
+
+.nav-link:hover {
+    background-color: #ffec19;
+    color: #272727;
+    border-radius: 50px;
+}
+
 .title-font {
     font-family: 'Pixelify Sans', sans-serif;
+}
+
+.texto-invisible {
+    opacity: 0;
+    transition: opacity 2s;
+    /* Controla la velocidad de la animación */
+    padding-right: 8px;
+    /* Espacio del cursor */
+}
+
+.texto-visible {
+    opacity: 1;
 }
 
 .name {
@@ -12,8 +38,8 @@ body {
 }
 
 #left-section {
-    margin-top: 17rem;
-    margin-left: 1rem;
+    margin-top: 14rem;
+    margin-left: 1px;
 }
 
 #memoji-img {
@@ -82,10 +108,201 @@ body {
 .iconClass {
     color: #ffec19;
 }
-.card{
-    height: 7rem;
+
+svg {
+    width: 5rem;
 }
 
-svg{
-    width: 5rem;
+#featured-projects {
+    margin-top: 5rem;
+}
+
+.card-body-FP {
+    background-color: #363636;
+    color: white;
+}
+
+.card-description {
+    font-size: 13px;
+}
+
+.card-title-font {
+    font-size: 18px;
+}
+
+.card-btn {
+    color: #ffec19;
+    font-family: 'Pixelify Sans', sans-serif;
+}
+
+.contenedor-form-contactMe {
+    background-color: #363636;
+    position: absolute;
+    z-index: 1;
+}
+
+.title-contactMe {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+#cont-contactMe {
+    margin-top: 8rem;
+}
+
+.input-contactMe {
+    background-color: transparent;
+    border: none;
+    /* Elimina el borde predeterminado */
+    border-bottom: 1px solid #ffec19;
+    /* Agrega un borde inferior de 1px sólido */
+    width: 100%;
+    padding: 5px;
+    border-radius: 0px;
+}
+
+.input-contactMe:focus {
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.marco-contactMe {
+    position: relative;
+    width: 48rem;
+    height: 40rem;
+    background: #2d2d2d;
+    border: 10px solid #ffec19;
+    left: 15rem;
+    z-index: 0;
+    margin-top: 15rem;
+}
+
+.objs-dentroMarco {
+    position: absolute;
+    bottom: 20px;
+    left: 15px;
+    z-index: 1;
+    /* Controla la superposición */
+    width: 50rem;
+    height: 41rem;
+    border: 10px solid #272727;
+}
+
+.btn-bd-primary {
+    background-color: #ffec19;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.label-fonts {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.input-consulta {
+    height: 6rem;
+}
+
+.footer-bg-color {
+    background-color: #363636;
+}
+
+.nav-link {
+    color: white;
+}
+
+
+@media only screen and (max-width: 425px) {
+    #left-section {
+        margin-top: 2rem;
+        margin-left: 1px;
+    }
+
+    .name {
+        font-size: 60px;
+    }
+
+    #memoji-img {
+        margin-top: 1rem;
+        width: 10rem;
+    }
+
+    /* Estilo para la imagen */
+    .imagen {
+        position: absolute;
+        bottom: 10px;
+        left: 5px;
+        z-index: 1;
+        /* Controla la superposición */
+        width: 170px;
+        height: 200px;
+        border: 10px solid #272727;
+    }
+
+    /* Estilo para el marco */
+    .marco {
+        position: relative;
+        width: 170px;
+        height: 190px;
+        background: #2d2d2d;
+        border: 10px solid #ffec19;
+        left: 0px;
+    }
+
+    /* Estilo para el contenedor */
+    .contenedor-foto {
+        max-width: 100%;
+        margin-top: 1rem;
+    }
+
+    #abMe-description {
+        font-family: 'Montserrat', sans-serif;
+        text-align: justify;
+        margin-top: 20px;
+        font-size: 0.8rem;
+    }
+
+    #title-abMe {
+        margin-top: 2rem;
+    }
+
+    .icon-skills {
+        width: 2rem;
+    }
+
+    .marco-contactMe {
+        position: relative;
+        width: 22rem;
+        height: 43rem;
+        background: #2d2d2d;
+        border: 10px solid #ffec19;
+        left: 1rem;
+        z-index: 0;
+        margin-top: 10rem;
+    }
+
+    .objs-dentroMarco {
+        position: absolute;
+        bottom: 5px;
+        left: 0.8rem;
+        z-index: 1;
+        /* Controla la superposición */
+        width: 22rem;
+        height: 45rem;
+        border: 10px solid #272727;
+    }
+    #titulo-form-con{
+        font-size: 1rem;
+    }
+    #descrip-form-con{
+        font-size: 0.8rem;
+    }
+    #cont-contactMe {
+        margin-top: 1rem;
+    }
+    label{
+        font-size: 0.7rem;
+    }
+    #memoji-img{
+        display: none;
+    }
 }
