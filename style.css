@@ -315,7 +315,7 @@ svg {
     }
 }
 
-@media only screen and (min-width: 425px) {
+@media (min-width: 376px) and (max-width: 425px) {
     #left-section {
         margin-top: 2rem;
         margin-left: 1px;
