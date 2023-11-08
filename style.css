@@ -67,7 +67,7 @@ body {
     height: 300px;
     background: #2d2d2d;
     border: 10px solid #ffec19;
-    left: 120px;
+    left: 100px;
 }
 
 /* Estilo para la imagen */
@@ -210,8 +210,112 @@ svg {
     color: white;
 }
 
+@media only screen and (max-width: 375px) {
+    #contenedor-abMeDesc {
+        margin-left: 1rem;
+    }
 
-@media only screen and (max-width: 425px) {
+    #left-section {
+        margin-top: 2rem;
+        margin-left: 1px;
+    }
+
+    .name {
+        font-size: 60px;
+    }
+
+    #memoji-img {
+        margin-top: 1rem;
+        width: 10rem;
+    }
+
+    /* Estilo para la imagen */
+    .imagen {
+        position: absolute;
+        bottom: 10px;
+        left: 5px;
+        z-index: 1;
+        /* Controla la superposición */
+        width: 170px;
+        height: 200px;
+        border: 10px solid #272727;
+    }
+
+    /* Estilo para el marco */
+    .marco {
+        position: relative;
+        width: 170px;
+        height: 190px;
+        background: #2d2d2d;
+        border: 10px solid #ffec19;
+        left: 0px;
+    }
+
+    /* Estilo para el contenedor */
+    .contenedor-foto {
+        max-width: 100%;
+        margin-top: 1rem;
+    }
+
+    #abMe-description {
+        font-family: 'Montserrat', sans-serif;
+        text-align: justify;
+        margin-top: 20px;
+        font-size: 0.8rem;
+    }
+
+    #title-abMe {
+        margin-top: 2rem;
+    }
+
+    .icon-skills {
+        width: 2rem;
+    }
+
+    .marco-contactMe {
+        position: relative;
+        width: 20rem;
+        height: 43rem;
+        background: #2d2d2d;
+        border: 10px solid #ffec19;
+        left: 1rem;
+        z-index: 0;
+        margin-top: 10rem;
+    }
+
+    .objs-dentroMarco {
+        position: absolute;
+        bottom: 5px;
+        left: 0.8rem;
+        z-index: 1;
+        /* Controla la superposición */
+        width: 20rem;
+        height: 45rem;
+        border: 10px solid #272727;
+    }
+
+    #titulo-form-con {
+        font-size: 1rem;
+    }
+
+    #descrip-form-con {
+        font-size: 0.8rem;
+    }
+
+    #cont-contactMe {
+        margin-top: 1rem;
+    }
+
+    label {
+        font-size: 0.7rem;
+    }
+
+    #memoji-img {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 425px) {
     #left-section {
         margin-top: 2rem;
         margin-left: 1px;
@@ -290,19 +394,24 @@ svg {
         height: 45rem;
         border: 10px solid #272727;
     }
-    #titulo-form-con{
+
+    #titulo-form-con {
         font-size: 1rem;
     }
-    #descrip-form-con{
+
+    #descrip-form-con {
         font-size: 0.8rem;
     }
+
     #cont-contactMe {
         margin-top: 1rem;
     }
-    label{
+
+    label {
         font-size: 0.7rem;
     }
-    #memoji-img{
+
+    #memoji-img {
         display: none;
     }
 }
